@@ -492,7 +492,7 @@ window.kit = (() => {
     help: () => {
       console.log(
         '%c DevKit Available Functions:',
-        'color: #00ffff; font-weight: bold;',
+        'color: #0000ff; font-weight: bold;',
       );
       Object.keys(kit)
         .filter((k) => k !== 'help')

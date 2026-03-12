@@ -495,7 +495,7 @@ window.kit = (() => {
         'color: #0000ff; font-weight: bold;',
       );
       Object.keys(kit)
-        .filter((k) => k !== 'help')
+        .filter((k) => k !== 'help' && typeof kit[k] === 'function')
         .forEach((k) => console.log(` - kit.${k}()`));
     },
   };
